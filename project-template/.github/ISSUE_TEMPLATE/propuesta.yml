@@ -1,0 +1,40 @@
+name: Propuesta de proyecto
+description: Proponer una nueva idea para el Open Lab
+title: "[Propuesta] "
+labels: ["idea", "needs-discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por proponer un proyecto. No hace falta tener código: primero necesitamos entender el problema y para quién es.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema
+      description: ¿Qué problema concreto se quiere abordar?
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: Comunidad destinataria
+      description: ¿Para quién sería útil?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Resultado esperado
+      description: ¿Qué debería existir al finalizar la primera etapa?
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Datos y riesgos
+      description: Indicar fuentes previstas y si podrían contener información sensible.
+  - type: textarea
+    id: ai
+    attributes:
+      label: Uso previsto de IA
+      description: ¿Qué herramienta o modelo se imagina utilizar y qué revisión humana tendría?

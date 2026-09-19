@@ -1,0 +1,42 @@
+name: Quality checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    name: Documentation and project checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Check required files
+        shell: bash
+        run: |
+          test -f README.md
+          test -f CONTRIBUTING.md
+          test -f SECURITY.md
+          test -d docs
+          test -d prompts
+      - name: Run detected checks
+        shell: bash
+        run: |
+          if [ -f package.json ]; then
+            npm ci
+            npm run test --if-present
+            npm run lint --if-present
+          elif [ -f pyproject.toml ]; then
+            python -m pip install --upgrade pip
+            python -m pip install -e .
+            if command -v pytest >/dev/null 2>&1; then
+              pytest
+            else
+              echo "No se detectó pytest; se validó la instalación del proyecto."
+            fi
+          else
+            echo "No se detectó un stack ejecutable; se validó la estructura documental."
+          fi

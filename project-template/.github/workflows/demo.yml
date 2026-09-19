@@ -1,0 +1,17 @@
+name: Demo deployment
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reminder:
+    name: Configure demo deployment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Informational step
+        run: |
+          echo "Este workflow es un punto de extensión para desplegar una demo."
+          echo "Configurar el proveedor y los secretos solo cuando el proyecto tenga una demo lista."

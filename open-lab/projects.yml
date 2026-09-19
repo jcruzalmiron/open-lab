@@ -1,0 +1,38 @@
+projects:
+  - slug: birria-ecolabs
+    name: BIRRIA EcoLabs
+    subtitle: Laboratorios Comunitarios de Inteligencia Artificial para la Acción Climática Local
+    status: en-preparacion
+    area: accion-climatica
+    repo: pendiente
+    summary: Laboratorios comunitarios para explorar respuestas a problemas ambientales locales mediante IA y participación ciudadana.
+
+  - slug: agente-ia-educacion
+    name: Agente educativo IA
+    status: activo
+    area: educacion
+    repo: pendiente
+
+  - slug: automatizacion-n8n-ong
+    name: Automatización n8n para ONG
+    status: activo
+    area: automatizacion
+    repo: pendiente
+
+  - slug: asistente-accesibilidad
+    name: Asistente de accesibilidad
+    status: activo
+    area: accesibilidad
+    repo: pendiente
+
+  - slug: rag-ciudadano
+    name: RAG ciudadano
+    status: experimental
+    area: participacion
+    repo: pendiente
+
+  - slug: agentes-colaborativos
+    name: Agentes colaborativos
+    status: experimental
+    area: agentes
+    repo: pendiente
