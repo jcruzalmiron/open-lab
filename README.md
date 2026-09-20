@@ -1,6 +1,8 @@
 # Open Lab - Fundación para la Democratización de la Inteligencia Artificial
 
-Este repositorio contiene el blueprint operativo para una organización abierta de proyectos de inteligencia artificial impulsados por la Fundación y la comunidad Birria.
+Este repositorio contiene el blueprint operativo para un Open Lab de proyectos de inteligencia artificial impulsados por la Fundación y la comunidad Birria.
+
+En esta primera etapa, el repositorio se crea, publica y mantiene desde la cuenta personal [`jcruzalmiron`](https://github.com/jcruzalmiron). La colaboración es abierta, pero la propiedad y continuidad del espacio permanecen en esa cuenta.
 
 La propuesta no es crear un repositorio gigante donde se acumule código. Es construir una arquitectura repetible: cada proyecto real tiene su propio repositorio, comparte una plantilla común y aparece en un catálogo público central.
 
@@ -20,7 +22,7 @@ fundacion-open-lab/
 
 ## Principios
 
-- GitHub Organization institucional: los repositorios pertenecen a la Fundación, no a personas particulares.
+- Propiedad y continuidad: el repositorio pertenece y es mantenido por `jcruzalmiron`; una GitHub Organization institucional podrá evaluarse más adelante, pero no es un requisito actual.
 - Open source por defecto, no indiscriminadamente.
 - Credenciales, datos personales, datasets sensibles e información contractual privada nunca se publican.
 - Cada proyecto debe tener un README orientado a personas, una licencia clara y un estado visible.
@@ -41,8 +43,8 @@ Los nombres de proyectos son propuestas de organización, no repositorios public
 
 ## Estado actual
 
-Este workspace contiene el andamiaje local. Todavía no crea una GitHub Organization, no publica repositorios y no configura accesos externos.
+El repositorio público ya está creado bajo `jcruzalmiron`. La base incluye el catálogo `open-lab`, la plantilla `project-template`, documentación operativa y workflows iniciales de higiene y seguridad.
 
-## Próximo paso institucional
+## Mantenimiento y continuidad
 
-Crear la organización de GitHub de la Fundación, activar Discussions y Projects, definir los equipos con permisos mínimos y luego crear `open-lab` y `project-template` desde esta base.
+La cuenta `jcruzalmiron` crea y mantiene este Open Lab. Las propuestas y contribuciones se gestionan mediante Issues, Discussions y Pull Requests, con permisos explícitos para quienes colaboren. No se prevé transferir el repositorio a una organización institucional en esta etapa.

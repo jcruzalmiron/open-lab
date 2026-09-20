@@ -4,6 +4,10 @@ Catálogo público de proyectos de la Fundación para la Democratización de la 
 
 Open Lab funciona como portada: ayuda a entender qué proyectos existen, en qué estado están y cómo participar. El código y la documentación completa viven en repositorios independientes.
 
+## Propiedad y mantenimiento
+
+Este repositorio se mantiene bajo la cuenta personal [`jcruzalmiron`](https://github.com/jcruzalmiron). Las propuestas y contribuciones se reciben por Issues, Discussions y Pull Requests.
+
 ## Proyectos activos
 
 La lista estructurada se mantiene en [`projects.yml`](projects.yml) para que el catálogo pueda ser consumido por una futura página, tablero o automatización.

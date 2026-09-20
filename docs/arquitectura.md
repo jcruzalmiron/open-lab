@@ -2,15 +2,17 @@
 
 ## Decisión principal
 
-La Fundación debería operar una GitHub Organization institucional, no una colección de repositorios pertenecientes a integrantes individuales.
+El repositorio inicial se crea, publica y mantiene bajo la cuenta personal `jcruzalmiron`. Esta decisión permite validar el modelo Open Lab con continuidad y control claros, sin depender de una organización institucional en esta etapa.
+
+La colaboración permanece abierta mediante Issues, Discussions y Pull Requests. Si más adelante la Fundación necesita equipos, permisos centralizados o facturación institucional, podrá evaluarse una GitHub Organization; no forma parte de la implementación actual.
 
 La unidad de trabajo es el repositorio de proyecto. El catálogo central no contiene todo el código: presenta los proyectos, sus estados, enlaces, áreas y formas de colaborar.
 
 ## Capas
 
-### Organización
+### Gobernanza del repositorio
 
-Identidad, permisos, equipos, políticas, Discussions, Projects y workflows compartidos.
+Identidad, permisos, políticas, Discussions, Projects y workflows compartidos bajo la cuenta propietaria `jcruzalmiron`.
 
 ### Catálogo
 

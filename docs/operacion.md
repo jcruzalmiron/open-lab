@@ -1,14 +1,16 @@
-# Operación institucional
+# Operación del Open Lab
 
 ## Checklist inicial de GitHub
 
-1. Crear la GitHub Organization institucional de la Fundación.
-2. Activar autenticación de dos factores y definir al menos dos administradores.
-3. Crear equipos con permisos mínimos: administración, tecnología, eventos y colaboradores.
+1. Mantener la propiedad del repositorio bajo la cuenta `jcruzalmiron`.
+2. Activar autenticación de dos factores y conservar métodos de recuperación seguros.
+3. Definir colaboradores y permisos mínimos para tecnología, eventos y colaboradores externos.
 4. Activar Discussions en los repositorios que funcionen como comunidad.
 5. Crear un GitHub Project transversal con los estados del ciclo de vida.
-6. Crear `open-lab` y `project-template` desde esta base.
+6. Crear cada nuevo proyecto desde `project-template` cuando tenga un alcance inicial claro.
 7. Definir las reglas de protección de la rama principal y las revisiones mínimas.
+
+La transferencia a una GitHub Organization institucional queda fuera de alcance por ahora. Puede revisarse en una etapa posterior si crece la cantidad de equipos o repositorios.
 
 ## Issues y Discussions
 
