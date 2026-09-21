@@ -16,6 +16,8 @@ La lista estructurada se mantiene en [`projects.yml`](projects.yml) para que el 
 
 Laboratorios Comunitarios de Inteligencia Artificial para la Acción Climática Local. En preparación para el encuentro de Tecnoteca del 24 de septiembre de 2026.
 
+Propuesta operativa y dinámica detallada: [`docs/birria-ecolabs.md`](../docs/birria-ecolabs.md).
+
 ### Agente educativo IA
 
 Proyecto activo. Repositorio y alcance por confirmar.

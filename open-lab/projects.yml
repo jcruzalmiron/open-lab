@@ -5,6 +5,7 @@ projects:
     status: en-preparacion
     area: accion-climatica
     repo: pendiente
+    proposal: docs/birria-ecolabs.md
     summary: Laboratorios comunitarios para explorar respuestas a problemas ambientales locales mediante IA y participación ciudadana.
 
   - slug: agente-ia-educacion
