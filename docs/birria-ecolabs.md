@@ -25,8 +25,10 @@ El programa completo contempla **tres laboratorios formativos abiertos de 2,5 ho
 El encuentro de Tecnoteca del **24 de septiembre de 2026** se propone como un primer laboratorio demostrativo y de lanzamiento. Por sus restricciones de horario, se trabajara en una jornada de 18:30 a 22:00, con una apertura comun y tres grupos de trabajo adaptados a distintos niveles de experiencia:
 
 - **Nivel inicial:** herramienta sencilla para separacion de residuos y compostaje.
-- **Nivel intermedio:** matriz o mapa comunitario de riesgos ante lluvias y anegamientos.
-- **Nivel avanzado:** prototipo conceptual de un asistente o flujo de analisis para accion climatica local.
+- **Nivel intermedio:** campaña de comunicación ambiental comunitaria.
+- **Nivel avanzado:** mapa comunitario de lluvias y anegamientos.
+
+Estos niveles describen la **complejidad del producto que se construye en el piloto**; no reemplazan a los tres laboratorios temáticos del programa completo. En otras palabras, el primer EcoLab combina dos ejes: cada grupo trabaja sobre un tema distinto y, al mismo tiempo, recibe un desafío inicial, medio o alto. Así se puede participar sin experiencia técnica previa y también asumir un problema que exige mayor trabajo de organización, datos y validación.
 
 El resultado esperado del piloto no es una aplicacion terminada ni un producto listo para operar en la ciudad. Es un conjunto de prototipos preparados, documentados y revisados, que permitan mostrar el potencial de la propuesta, recibir devoluciones y continuar el desarrollo en el Open Lab.
 
@@ -322,101 +324,105 @@ Crear una guia que ayude a una persona a responder que puede hacer con un residu
 
 La guia debe poder ser entendida por una persona sin conocimientos ambientales ni tecnicos, no debe inventar puntos de recepcion y debe diferenciar informacion general de informacion especifica de Rosario.
 
-### 9.2. Nivel intermedio - Matriz de riesgos ante lluvias
+### 9.2. Nivel intermedio - Campaña de comunicación ambiental comunitaria
+
+**Nombre de trabajo:** `Campaña ambiental comunitaria`
+**Complejidad:** media
+**Producto:** kit breve de mensajes y piezas adaptables a distintos públicos y canales
+**Puede requerir:** editor de texto, herramienta de diseño opcional y una matriz de públicos, mensajes y llamados a la acción.
+
+#### Desafío
+
+Transformar un problema o hallazgo ambiental en una comunicación clara, inclusiva y accionable. El grupo debe decidir qué comportamiento quiere promover, para quién lo comunica y cómo adaptar el mensaje sin exagerar, culpabilizar ni presentar como confirmado aquello que todavía requiere una fuente.
+
+#### Alcance mínimo
+
+La campaña debe incluir:
+
+- un problema concreto y un comportamiento esperado;
+- una definición de público prioritario y contexto de uso;
+- un mensaje principal de no más de una frase;
+- adaptaciones para al menos tres canales, por ejemplo cartel, redes y grupo de mensajería;
+- un llamado a la acción seguro, posible y verificable;
+- fuentes, supuestos y afirmaciones que necesitan revisión;
+- registro de qué partes fueron asistidas por IA y qué decisiones tomó el equipo.
+
+#### Secuencia de trabajo
+
+1. Elegir un tema acotado: residuos, compostaje, cuidado del agua, prevención o comunicación ante lluvias.
+2. Definir a quién se quiere ayudar y qué acción concreta se espera que realice.
+3. Redactar un mensaje base con lenguaje claro y no alarmista.
+4. Pedir a Claude variantes por canal y público, conservando el mismo objetivo.
+5. Revisar tono, accesibilidad, posibles sesgos, afirmaciones sin fuente y llamados a la acción poco realistas.
+6. Armar un kit con tres piezas y una guía de uso para que otra persona pueda adaptarlo.
+7. Probar las piezas con alguien que no haya participado del diseño y registrar qué entendió.
+8. Preparar una demo de un minuto y un próximo issue para validar el material localmente.
+
+#### Entregables
+
+- brief de campaña;
+- mensaje principal y tres adaptaciones;
+- matriz de público, canal, tono y llamado a la acción;
+- checklist de accesibilidad y verificación;
+- prompts utilizados y ejemplos de iteración;
+- registro de decisiones humanas;
+- prueba breve de comprensión y próximos pasos.
+
+#### Criterio de calidad
+
+La campaña debe poder ser entendida sin explicación oral, invitar a una acción concreta y no depender de datos inventados. Una pieza se considera preparada cuando otra persona puede reutilizarla, identificar qué debe validar y modificarla sin perder el objetivo.
+
+### 9.3. Nivel avanzado - Mapa comunitario de lluvias y anegamientos
 
 **Nombre de trabajo:** `Mapa comunitario de lluvias y anegamientos`
-**Complejidad:** media
-**Producto:** matriz priorizada y propuesta de microacciones
-**Puede requerir:** planilla, mapa colaborativo o herramienta de visualizacion sencilla.
+**Complejidad:** alta
+**Producto:** matriz priorizada y prototipo de mapa o croquis de riesgos comunitarios
+**Puede requerir:** planilla estructurada, herramienta de mapa, criterios de priorización, ejemplos de datos sintéticos y una demo sencilla.
 
-#### Desafio
+#### Desafío
 
-Organizar observaciones de la comunidad para reconocer situaciones de riesgo, priorizarlas y vincularlas con acciones de prevencion, comunicacion o derivacion.
+Organizar observaciones de la comunidad para reconocer situaciones de riesgo ante lluvias intensas, priorizarlas y vincularlas con acciones de prevención, comunicación o derivación. La complejidad alta está en combinar territorio, calidad de datos, incertidumbre, priorización y comunicación responsable: el resultado no debe parecer un pronóstico ni una alerta oficial.
 
 #### Campos sugeridos
 
 | Campo | Ejemplo de uso | Cuidado necesario |
 |---|---|---|
 | Zona o referencia general | Barrio, plaza, esquina o corredor | Evitar publicar domicilios particulares. |
-| Situacion observada | Acumulacion de agua, obstruccion, dificultad de paso | No presentarla como hecho oficial sin validar. |
-| Frecuencia percibida | Ocasional, frecuente, recurrente | Diferenciar testimonio de medicion. |
+| Situación observada | Acumulación de agua, obstrucción, dificultad de paso | No presentarla como hecho oficial sin validar. |
+| Fecha y momento | Día y franja horaria del registro | Diferenciar fecha del relato y fecha del evento. |
+| Frecuencia percibida | Ocasional, frecuente, recurrente | Diferenciar testimonio de medición. |
 | Impacto | Movilidad, acceso, viviendas, escuela, comercio | No inferir daños no observados. |
 | Personas potencialmente afectadas | Adultos mayores, personas con discapacidad, estudiantes | No registrar nombres ni datos personales. |
-| Accion posible | Limpiar, informar, señalizar, derivar, relevar | Verificar que la accion sea segura y viable. |
-| Fuente | Relato, observacion, dato abierto, organismo | Registrar procedencia y fecha. |
+| Evidencia disponible | Foto anonimizada, relato, observación, dato abierto | No publicar imágenes con rostros, patentes o domicilios identificables. |
+| Acción posible | Informar, relevar, señalizar, derivar | Verificar que sea segura y no reemplaza a un organismo. |
+| Fuente y estado | Vecinal, observación, dato oficial, por validar | Registrar procedencia, fecha y nivel de confianza. |
 
 #### Secuencia de trabajo
 
-1. Elegir un territorio acotado para no intentar mapear toda la ciudad.
-2. Cargar observaciones en una tabla comun.
-3. Pedir a Claude que agrupe patrones, pero no que invente datos.
-4. Revisar cada agrupacion con las personas que conocen el territorio.
-5. Definir una escala simple de prioridad: baja, media o alta, con criterios explicitos.
-6. Asociar cada prioridad a una accion comunitaria posible.
-7. Crear una visualizacion sencilla o un croquis explicativo.
-8. Redactar limites: no es pronostico, alerta oficial ni diagnostico de infraestructura.
+1. Elegir un territorio acotado y una pregunta concreta; no intentar mapear toda la ciudad.
+2. Cargar observaciones en una tabla común usando datos ficticios o anonimizados.
+3. Pedir a Claude que agrupe patrones y detecte faltantes, sin inventar datos ni coordenadas.
+4. Revisar cada agrupación con personas que conozcan el territorio.
+5. Definir una escala cualitativa de prioridad —baja, media o alta— con criterios explícitos de frecuencia, impacto, exposición y confianza.
+6. Asociar cada prioridad a una acción comunitaria posible y a una derivación cuando corresponda.
+7. Construir un mapa, croquis o tablero que muestre observaciones y nivel de incertidumbre.
+8. Probar casos claros, ambiguos y riesgosos; registrar errores, límites y preguntas que requieren datos oficiales.
+9. Preparar una demo corta que explique qué muestra el prototipo y qué no permite concluir.
 
 #### Entregables
 
-- tabla documentada;
-- criterios de priorizacion;
-- croquis o mapa conceptual;
-- tres microacciones posibles;
-- preguntas que requieren datos oficiales o trabajo posterior;
-- prompt y registro de decisiones.
+- modelo de datos y diccionario de campos;
+- conjunto de datos sintéticos o anonimizados;
+- criterios de priorización y nivel de confianza;
+- matriz documentada;
+- croquis, mapa conceptual o prototipo visual;
+- tres acciones posibles y rutas de derivación;
+- prompts, resultados, decisiones humanas y casos de prueba;
+- limitaciones y próximo issue de desarrollo.
 
 #### Criterio de calidad
 
-El resultado debe ser util para conversar y organizarse, pero nunca debe inducir a tomar decisiones de emergencia basadas solamente en una salida de IA.
-
-### 9.3. Nivel avanzado - Prototipo de asistente de accion climatica
-
-**Nombre de trabajo:** `Asistente comunitario de accion climatica local`
-**Complejidad:** alta
-**Producto:** prototipo funcional o especificacion detallada de un prototipo
-**Puede requerir:** estructura de datos, flujo conversacional, pruebas y una demo sencilla.
-
-#### Desafio
-
-Diseñar un asistente que reciba una consulta ambiental local y ayude a organizarla en cuatro pasos: comprender el problema, identificar informacion faltante, proponer una microaccion segura y derivar a fuentes o instituciones que deben ser consultadas.
-
-#### Alcance minimo
-
-El prototipo debe poder:
-
-- identificar el tema de la consulta;
-- pedir contexto adicional cuando falten datos;
-- diferenciar informacion general de informacion local confirmada;
-- sugerir acciones de bajo riesgo;
-- incluir fuentes o indicar que la fuente debe ser validada;
-- advertir cuando la situacion requiere consultar a organismos oficiales;
-- registrar limitaciones y ejemplos de prueba.
-
-#### Secuencia de trabajo
-
-1. Definir dos perfiles de usuario y tres situaciones de uso.
-2. Escribir una ficha de alcance y una lista de cosas que el asistente no debe hacer.
-3. Diseñar el flujo de conversacion.
-4. Crear un pequeño conjunto de ejemplos seguros y anonimizados.
-5. Formular el prompt de sistema y los prompts de prueba.
-6. Probar consultas claras, ambiguas y potencialmente riesgosas.
-7. Registrar errores y ajustar instrucciones.
-8. Preparar una demo corta o, si no alcanza el tiempo, una especificacion reproducible para continuar.
-
-#### Entregables
-
-- README del prototipo;
-- diagrama del flujo;
-- prompt de sistema versionado;
-- conjunto de pruebas;
-- resultados esperados y observados;
-- limitaciones y situaciones de derivacion;
-- demo, mockup o especificacion tecnica;
-- proximo issue de desarrollo.
-
-#### Criterio de calidad
-
-El prototipo no debe presentarse como sistema oficial ni como fuente de alertas. Su valor esta en mostrar un flujo responsable y reproducible, no en aparentar una precision que no fue validada.
+El resultado debe ser útil para conversar y organizarse, pero nunca inducir a tomar decisiones de emergencia basadas solamente en una salida de IA. El futuro asistente climático puede ser una extensión posterior, una vez validados el modelo de datos, los criterios de priorización y los límites de uso.
 
 ---
 
@@ -744,9 +750,21 @@ La expectativa correcta es **prototipo preparado, documentado y continuable**.
 
 ---
 
-## 17. Estructura sugerida para los proyectos derivados
+## 17. Estructura del primer EcoLab y evolución a repositorios derivados
 
-Cuando un resultado alcance suficiente claridad para continuar, puede convertirse en un repositorio propio desde `project-template`.
+El primer EcoLab ya cuenta con un hub público dentro de este repositorio. Su entrada práctica es [`open-lab/birria-ecolabs/primer-ecolab/`](../open-lab/birria-ecolabs/primer-ecolab/), donde viven los tres proyectos iniciales, ordenados por nivel de complejidad. Cada carpeta contiene un README, alcance, prompts, ejemplos y checklist para que el grupo pueda clonar, trabajar y dejar el prototipo preparado.
+
+La estructura inicial es:
+
+```text
+open-lab/birria-ecolabs/primer-ecolab/
+├── 01-guia-residuos/          # nivel inicial
+├── 02-comunicacion-ambiental/  # nivel medio
+├── 03-lluvias-anegamientos/    # nivel alto
+└── assets/                     # QR y materiales de acceso
+```
+
+Cuando un resultado alcance suficiente claridad para continuar, puede convertirse en un repositorio propio desde `project-template`, conservando la trazabilidad del hub y la documentación de decisiones.
 
 ```text
 proyecto-ecolabs/

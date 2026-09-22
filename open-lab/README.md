@@ -2,7 +2,7 @@
 
 Catálogo público de proyectos de la Fundación para la Democratización de la Inteligencia Artificial.
 
-Open Lab funciona como portada: ayuda a entender qué proyectos existen, en qué estado están y cómo participar. El código y la documentación completa viven en repositorios independientes.
+Open Lab funciona como portada: ayuda a entender qué proyectos existen, en qué estado están y cómo participar. Los proyectos pueden vivir inicialmente dentro de este repositorio y separarse después cuando alcancen la madurez necesaria.
 
 ## Propiedad y mantenimiento
 
@@ -17,6 +17,8 @@ La lista estructurada se mantiene en [`projects.yml`](projects.yml) para que el 
 Laboratorios Comunitarios de Inteligencia Artificial para la Acción Climática Local. En preparación para el encuentro de Tecnoteca del 24 de septiembre de 2026.
 
 Propuesta operativa y dinámica detallada: [`docs/birria-ecolabs.md`](../docs/birria-ecolabs.md).
+
+Primer EcoLab listo para explorar y clonar: [`open-lab/birria-ecolabs/primer-ecolab/`](birria-ecolabs/primer-ecolab/). Incluye tres proyectos iniciales: guía de residuos, campaña de comunicación ambiental y mapa comunitario de lluvias y anegamientos.
 
 ### Agente educativo IA
 

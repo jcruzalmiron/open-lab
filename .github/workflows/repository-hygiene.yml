@@ -24,4 +24,9 @@ jobs:
           test -f docs/arquitectura.md
           test -f docs/birria-ecolabs.md
           test -d open-lab
+          test -f open-lab/birria-ecolabs/primer-ecolab/README.md
+          test -f open-lab/birria-ecolabs/primer-ecolab/assets/qr-primer-ecolab.png
+          test -f open-lab/birria-ecolabs/primer-ecolab/01-guia-residuos/README.md
+          test -f open-lab/birria-ecolabs/primer-ecolab/02-comunicacion-ambiental/README.md
+          test -f open-lab/birria-ecolabs/primer-ecolab/03-lluvias-anegamientos/README.md
           test -d project-template

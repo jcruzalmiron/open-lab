@@ -4,9 +4,11 @@ projects:
     subtitle: Laboratorios Comunitarios de Inteligencia Artificial para la Acción Climática Local
     status: en-preparacion
     area: accion-climatica
-    repo: pendiente
+    repo: https://github.com/jcruzalmiron/open-lab
+    path: open-lab/birria-ecolabs/
+    entrypoint: open-lab/birria-ecolabs/primer-ecolab/
     proposal: docs/birria-ecolabs.md
-    summary: Laboratorios comunitarios para explorar respuestas a problemas ambientales locales mediante IA y participación ciudadana.
+    summary: Laboratorios comunitarios para explorar respuestas a problemas ambientales locales mediante IA y participación ciudadana. El primer EcoLab reúne tres proyectos iniciales por nivel de complejidad.
 
   - slug: agente-ia-educacion
     name: Agente educativo IA

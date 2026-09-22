@@ -14,6 +14,7 @@ EcoLabs combina educación ambiental, participación ciudadana y uso responsable
 
 - Propuesta operativa completa: [`docs/birria-ecolabs.md`](docs/birria-ecolabs.md).
 - Catálogo del proyecto: [`open-lab/README.md`](open-lab/README.md).
+- Primer EcoLab para clonar: [`open-lab/birria-ecolabs/primer-ecolab/`](open-lab/birria-ecolabs/primer-ecolab/).
 - Primer piloto: encuentro de Tecnoteca del 24 de septiembre de 2026, con grupos de nivel inicial, intermedio y avanzado.
 
 El documento distingue los elementos confirmados en el formulario y la reunión de trabajo de las recomendaciones que todavía deben validar las comisiones de Tecnología y Eventos.
@@ -39,6 +40,7 @@ fundacion-open-lab/
 ├── CODEX.md                 # orientación para Codex
 ├── CLAUDE.md                # orientación para Claude Code
 ├── open-lab/                # catálogo público de proyectos
+│   └── birria-ecolabs/      # primer EcoLab y sus tres proyectos iniciales
 ├── project-template/        # plantilla oficial para nuevos repos
 ├── docs/                    # arquitectura, operación, EcoLabs y políticas
 ├── CONTRIBUTING.md
