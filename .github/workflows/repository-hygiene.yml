@@ -12,12 +12,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Check organization blueprint
+      - name: Check open lab blueprint
         shell: bash
         run: |
           test -f README.md
+          test -f AGENTS.md
+          test -f CODEX.md
+          test -f CLAUDE.md
           test -f CONTRIBUTING.md
           test -f SECURITY.md
           test -f docs/arquitectura.md
+          test -f docs/birria-ecolabs.md
           test -d open-lab
           test -d project-template

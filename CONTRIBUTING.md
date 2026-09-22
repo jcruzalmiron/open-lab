@@ -4,7 +4,7 @@ La comunidad puede proponer ideas, reportar problemas, mejorar documentación y 
 
 ## Antes de abrir un cambio
 
-1. Revisá el README y el estado actual del proyecto.
+1. Revisá `README.md`, `AGENTS.md` y el estado actual del proyecto.
 2. Para una propuesta nueva, usá Discussions o la plantilla de propuesta.
 3. Para trabajo concreto, abrí un Issue describiendo el problema y el resultado esperado.
 4. No subas secretos, credenciales, datos personales, contratos ni datasets sensibles.
