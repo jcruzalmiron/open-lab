@@ -72,5 +72,5 @@ Para cambios de documentación, revisar los enlaces relativos y comprobar que lo
 - No incluir archivos ajenos, entregables locales, carpetas de render, temporales ni datos personales.
 - Hacer cambios pequeños y con mensajes de commit específicos.
 - No usar `reset --hard`, `force-push` ni borrar archivos sin autorización explícita.
-- El repositorio pertenece y es mantenido por la cuenta `jcruzalmiron`.
+- El repositorio central pertenece a la organización de GitHub `comunidad-birria`; `jcruzalmiron` es la persona administradora inicial.
 - Un agente puede preparar un commit local; hacer `push` solo cuando la persona responsable lo haya solicitado.

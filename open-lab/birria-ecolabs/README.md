@@ -2,7 +2,7 @@
 
 Laboratorios Comunitarios de Inteligencia Artificial para la Acción Climática Local.
 
-Esta carpeta reúne la propuesta y los materiales del proyecto EcoLabs. El primer laboratorio se encuentra en [`primer-ecolab/`](primer-ecolab/), con tres proyectos iniciales pensados para que las personas puedan leerlos, probarlos y continuar su desarrollo.
+Esta carpeta reúne la propuesta y los materiales del proyecto EcoLabs. El primer laboratorio se encuentra en [`primer-ecolab/`](primer-ecolab/), con tres consignas y proyectos iniciales para explorar en comunidad. Los resultados se incorporan después de la actividad y de su revisión.
 
 ## Niveles del primer EcoLab
 

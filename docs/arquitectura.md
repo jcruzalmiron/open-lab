@@ -2,17 +2,17 @@
 
 ## Decisión principal
 
-El repositorio inicial se crea, publica y mantiene bajo la cuenta personal `jcruzalmiron`. Esta decisión permite validar el modelo Open Lab con continuidad y control claros, sin depender de una organización institucional en esta etapa.
+El repositorio central está alojado en la organización de GitHub `comunidad-birria`, bajo el nombre [`comunidad-birria/openlab`](https://github.com/comunidad-birria/openlab). La organización conserva la continuidad del Open Lab aunque cambien las personas que colaboran.
 
-La colaboración permanece abierta mediante Issues, Discussions y Pull Requests. Si más adelante la Fundación necesita equipos, permisos centralizados o facturación institucional, podrá evaluarse una GitHub Organization; no forma parte de la implementación actual.
+La colaboración se organiza mediante Issues, Discussions, Projects y Pull Requests. La organización permite administrar accesos compartidos; cada proyecto puede definir sus responsables y permisos de acuerdo con su alcance.
 
-La unidad de trabajo es el repositorio de proyecto. El catálogo central no contiene todo el código: presenta los proyectos, sus estados, enlaces, áreas y formas de colaborar.
+La unidad de trabajo madura es el repositorio de proyecto. Para actividades iniciales como el primer EcoLab, las consignas y primeros aportes se agrupan en carpetas del hub para facilitar el acceso y la coordinación. El catálogo central presenta proyectos, estados, enlaces, áreas y formas de colaborar; cuando una línea madura, puede extraerse a un repositorio propio desde la plantilla.
 
 ## Capas
 
 ### Gobernanza del repositorio
 
-Identidad, permisos, políticas, Discussions, Projects y workflows compartidos bajo la cuenta propietaria `jcruzalmiron`.
+Identidad, permisos, políticas, Discussions, Projects y workflows compartidos bajo la organización `comunidad-birria`. `jcruzalmiron` es administrador inicial; conviene sumar otras personas administradoras de confianza para asegurar continuidad.
 
 ### Catálogo
 
@@ -24,7 +24,7 @@ Identidad, permisos, políticas, Discussions, Projects y workflows compartidos b
 
 ### Proyectos
 
-Cada desarrollo real vive en su propio repositorio. Esto evita que el catálogo se convierta en un monorepo difícil de entender y facilita que cada iniciativa tenga su ciclo de vida.
+Los desarrollos que requieren un ciclo de vida autónomo pueden vivir en repositorios propios. Durante el piloto, el hub agrupa los tres desafíos del primer EcoLab; esta etapa acotada no convierte al catálogo en un monorepo de aplicaciones. La persona mantenedora decide la extracción cuando haya alcance, responsables y documentación suficientes.
 
 ## Ciclo de vida
 

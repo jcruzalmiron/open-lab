@@ -2,9 +2,9 @@
 
 Este repositorio contiene el blueprint operativo para un Open Lab de proyectos de inteligencia artificial impulsados por la Fundación y la comunidad Birria.
 
-En esta primera etapa, el repositorio se crea, publica y mantiene desde la cuenta personal [`jcruzalmiron`](https://github.com/jcruzalmiron). La colaboración es abierta, pero la propiedad y continuidad del espacio permanecen en esa cuenta.
+El repositorio pertenece a la organización de GitHub [Comunidad Birria](https://github.com/comunidad-birria) y se publica como [`comunidad-birria/openlab`](https://github.com/comunidad-birria/openlab). La organización conserva la continuidad del espacio; `jcruzalmiron` participa como administrador inicial.
 
-La propuesta no es crear un repositorio gigante donde se acumule código. Es construir una arquitectura repetible: cada proyecto real tiene su propio repositorio, comparte una plantilla común y aparece en un catálogo público central.
+La propuesta no es crear un repositorio gigante donde se acumule código. Es construir una arquitectura repetible: los proyectos pueden comenzar documentados y organizados en el hub; cuando maduran y necesitan un ciclo propio, pueden derivarse a un repositorio específico con una plantilla común y permanecer enlazados desde el catálogo público central.
 
 ## BIRRIA EcoLabs
 
@@ -13,6 +13,8 @@ La primera propuesta desarrollada en este Open Lab es **BIRRIA EcoLabs: Laborato
 EcoLabs combina educación ambiental, participación ciudadana y uso responsable de IA para trabajar sobre lluvias intensas y anegamientos, separación de residuos, compostaje y comunicación ambiental comunitaria.
 
 - Propuesta operativa completa: [`docs/birria-ecolabs.md`](docs/birria-ecolabs.md).
+- Guía oficial para integrarse y colaborar en el Open Lab: [`docs/guia-integracion-open-lab.md`](docs/guia-integracion-open-lab.md).
+- Guía para que los equipos aporten desarrollos y mantengan la documentación: [`docs/guia-aportes-ecolabs.md`](docs/guia-aportes-ecolabs.md).
 - Catálogo del proyecto: [`open-lab/README.md`](open-lab/README.md).
 - Primer EcoLab para clonar: [`open-lab/birria-ecolabs/primer-ecolab/`](open-lab/birria-ecolabs/primer-ecolab/).
 - Primer piloto: encuentro de Tecnoteca del 24 de septiembre de 2026, con grupos de nivel inicial, intermedio y avanzado.
@@ -51,12 +53,12 @@ fundacion-open-lab/
 
 ## Principios
 
-- Propiedad y continuidad: el repositorio pertenece y es mantenido por `jcruzalmiron`; una GitHub Organization institucional podrá evaluarse más adelante, pero no es un requisito actual.
+- Propiedad y continuidad: el repositorio central pertenece a la organización de GitHub `comunidad-birria`; los permisos se asignan según las responsabilidades de cada persona.
 - Open source por defecto, no indiscriminadamente.
 - Credenciales, datos personales, datasets sensibles e información contractual privada nunca se publican.
 - Cada proyecto debe tener un README orientado a personas, una licencia clara y un estado visible.
 - Issues sirven para trabajo concreto; Discussions para propuestas, preguntas y búsqueda de colaboradores.
-- GitHub Projects permite seguir el ciclo Idea -> En desarrollo -> Demo -> Publicado -> Mantenimiento -> Archivado.
+- Se prevé un GitHub Project transversal para seguir el ciclo Idea -> En desarrollo -> Demo -> Publicado -> Mantenimiento -> Archivado; su tablero aún está pendiente de creación.
 - La trazabilidad de IA es parte del producto: herramientas, modelos, prompts relevantes y decisiones humanas deben quedar registrados.
 
 ## Primeros repositorios sugeridos
@@ -72,8 +74,8 @@ Las líneas de proyectos del catálogo son propuestas de organización. Los repo
 
 ## Estado actual
 
-El repositorio público ya está creado bajo `jcruzalmiron`. La base incluye el catálogo `open-lab`, la plantilla `project-template`, la propuesta completa de EcoLabs, documentación operativa y workflows iniciales de higiene y seguridad.
+El repositorio público está publicado como [`comunidad-birria/openlab`](https://github.com/comunidad-birria/openlab). La base incluye el catálogo `open-lab`, la plantilla `project-template`, la propuesta completa de EcoLabs, documentación operativa y workflows iniciales de higiene y seguridad.
 
 ## Mantenimiento y continuidad
 
-La cuenta `jcruzalmiron` crea y mantiene este Open Lab. Las propuestas y contribuciones se gestionan mediante Issues, Discussions y Pull Requests, con permisos explícitos para quienes colaboren. No se prevé transferir el repositorio a una organización institucional en esta etapa.
+La organización `comunidad-birria` aloja y mantiene este Open Lab; `jcruzalmiron` administra la configuración inicial. Issues, Discussions y Pull Requests están disponibles para colaborar. Projects está habilitado, aunque el tablero transversal todavía está pendiente de creación.

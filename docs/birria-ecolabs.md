@@ -4,9 +4,9 @@
 
 **Documento:** propuesta operativa y dinamica de implementacion
 **Estado:** propuesta de trabajo para validacion entre las comisiones de Tecnologia y Eventos
-**Version:** 0.1
-**Fecha de actualizacion:** 21 de septiembre de 2026
-**Repositorio de referencia:** [`jcruzalmiron/open-lab`](https://github.com/jcruzalmiron/open-lab)
+**Version:** 0.4
+**Fecha de actualizacion:** 24 de septiembre de 2026
+**Repositorio de referencia:** [`comunidad-birria/openlab`](https://github.com/comunidad-birria/openlab)
 
 ---
 
@@ -54,14 +54,24 @@ Este documento combina tres fuentes de trabajo:
 - La actividad debe finalizar estrictamente a las 22:00.
 - Se propuso una apertura a las 18:30 y la division en grupos a partir de las 19:15.
 - Se acordaron tres niveles de complejidad: principiante, intermedio y avanzado.
-- Claude sera la herramienta de inteligencia artificial principal durante el taller.
-- Las personas trabajaran preferentemente con sus propios dispositivos.
-- Se utilizaran las salas CAP para la presentacion inicial y mesas o sillas externas para el trabajo con computadoras portatiles.
+- En la reunion se propuso Claude como herramienta principal del piloto.
+- La reunion preveia el uso preferente de dispositivos personales y mesas para trabajar con portatiles.
+- Se utilizaran las salas CAP para la presentacion inicial y mesas o sillas externas para el trabajo en grupo.
 - La comision de Tecnologia preparara las propuestas tecnicas y la presentacion del repositorio abierto.
 - El equipo tecnico dispone de seis integrantes, con al menos dos personas previstas para coordinar el encuentro.
 - Se considero una asistencia aproximada de 30 personas por comision, dentro de una convocatoria general estimada de 100 a 120 personas. Esta cifra debe confirmarse con Eventos.
 
-### 2.3. Alcance propuesto
+### 2.3. Aclaraciones posteriores de coordinacion
+
+El 24 de septiembre se actualizo el supuesto sobre equipos y modelos de IA:
+
+- hay PCs disponibles en Tecnoteca para la actividad; no se requiere que cada persona lleve una computadora y el dispositivo personal es opcional;
+- no se fija un unico modelo de IA; cada grupo puede elegir segun sus preferencias y disponibilidad de acceso;
+- la cantidad y distribucion de PCs y la conectividad deben verificarse con la sede antes del encuentro.
+
+Estas aclaraciones reemplazan cualquier indicacion previa que pudiera interpretarse como requisito de llevar equipo propio o usar Claude.
+
+### 2.4. Alcance propuesto
 
 Lo que sigue es una propuesta operativa. Las recomendaciones, supuestos y decisiones pendientes estan marcados para que puedan validarse con la comision de Eventos, la coordinacion general y, si corresponde, la Municipalidad de Rosario.
 
@@ -252,7 +262,7 @@ El horario propuesto respeta la apertura a las 18:30 y el cierre estricto a las 
 | Hora | Duracion | Momento | Resultado esperado |
 |---|---:|---|---|
 | 18:30-18:45 | 15 min | Bienvenida y contexto | Las personas entienden que es EcoLabs y por que se trabaja sobre ambiente e IA. |
-| 18:45-19:05 | 20 min | Problemas locales y demostracion | Se presenta un caso breve y una demostracion de Claude con revision humana. |
+| 18:45-19:05 | 20 min | Problemas locales y demostracion | Se presenta un caso breve y una demostracion de un modelo disponible, con revision humana. |
 | 19:05-19:15 | 10 min | Explicacion de niveles y reglas | Cada persona identifica el grupo donde puede aportar mejor. |
 | 19:15-19:25 | 10 min | Instalacion de grupos | Se asignan roles, problema, facilitador y producto esperado. |
 | 19:25-20:05 | 40 min | Sprint 1: comprender | El grupo define usuario, problema, datos disponibles y preguntas abiertas. |
@@ -272,7 +282,7 @@ La apertura debe ser breve y concreta. Puede seguir este guion:
 1. **Bienvenida:** explicar que la actividad forma parte de BIRRIA EcoLabs.
 2. **Problema:** mostrar que lluvias, residuos y comunicacion ambiental tienen una dimension cotidiana y local.
 3. **Metodo:** explicar que la IA ayudara a ordenar y producir, pero que las decisiones deben ser revisadas por personas.
-4. **Demostracion:** presentar un pedido simple en Claude, analizar una respuesta y señalar un error o una limitacion posible.
+4. **Demostracion:** presentar un pedido simple en un modelo de IA disponible para el encuentro, analizar una respuesta y señalar un error o una limitacion posible.
 5. **Resultado:** contar que cada grupo debe irse con un producto preparado, no solamente con ideas.
 6. **Repositorio:** mostrar el Open Lab como espacio donde la propuesta puede continuar documentada y abierta.
 
@@ -305,7 +315,7 @@ Crear una guia que ayude a una persona a responder que puede hacer con un residu
 
 1. Seleccionar entre 10 y 15 residuos o situaciones frecuentes.
 2. Separar casos claros de casos ambiguos.
-3. Pedir a Claude una primera clasificacion explicada en lenguaje simple.
+3. Pedir al modelo de IA que elija el grupo una primera clasificacion explicada en lenguaje simple.
 4. Revisar manualmente cada respuesta y marcar que requiere una fuente local.
 5. Crear un arbol de decision de pocas preguntas.
 6. Elegir una microaccion: separar, reducir, reutilizar, compostar o consultar.
@@ -352,7 +362,7 @@ La campaña debe incluir:
 1. Elegir un tema acotado: residuos, compostaje, cuidado del agua, prevención o comunicación ante lluvias.
 2. Definir a quién se quiere ayudar y qué acción concreta se espera que realice.
 3. Redactar un mensaje base con lenguaje claro y no alarmista.
-4. Pedir a Claude variantes por canal y público, conservando el mismo objetivo.
+4. Pedir al modelo de IA que elija el grupo variantes por canal y público, conservando el mismo objetivo.
 5. Revisar tono, accesibilidad, posibles sesgos, afirmaciones sin fuente y llamados a la acción poco realistas.
 6. Armar un kit con tres piezas y una guía de uso para que otra persona pueda adaptarlo.
 7. Probar las piezas con alguien que no haya participado del diseño y registrar qué entendió.
@@ -401,7 +411,7 @@ Organizar observaciones de la comunidad para reconocer situaciones de riesgo ant
 
 1. Elegir un territorio acotado y una pregunta concreta; no intentar mapear toda la ciudad.
 2. Cargar observaciones en una tabla común usando datos ficticios o anonimizados.
-3. Pedir a Claude que agrupe patrones y detecte faltantes, sin inventar datos ni coordenadas.
+3. Pedir al modelo de IA que elija el grupo que agrupe patrones y detecte faltantes, sin inventar datos ni coordenadas.
 4. Revisar cada agrupación con personas que conozcan el territorio.
 5. Definir una escala cualitativa de prioridad —baja, media o alta— con criterios explícitos de frecuencia, impacto, exposición y confianza.
 6. Asociar cada prioridad a una acción comunitaria posible y a una derivación cuando corresponda.
@@ -447,7 +457,7 @@ Todos los niveles deben seguir un mismo metodo, con distinta profundidad.
 
 ### Fase 3 - Construir con IA
 
-- usar Claude como copiloto;
+- usar el modelo de IA elegido y disponible como copiloto;
 - pedir formatos concretos: tabla, pasos, preguntas, guion o estructura;
 - revisar una respuesta antes de reutilizarla;
 - corregir instrucciones y repetir;
@@ -487,7 +497,7 @@ Todos los niveles deben seguir un mismo metodo, con distinta profundidad.
 - preparar los tres desafios y sus materiales;
 - diseñar la demostracion inicial;
 - configurar el repositorio y la plantilla de proyecto;
-- facilitar el uso de Claude;
+- facilitar el acceso a las PCs y acompañar la elección y el uso responsable de modelos disponibles;
 - acompañar a los grupos sin resolver todo por ellos;
 - revisar los productos antes de publicarlos;
 - registrar prompts, decisiones, herramientas y limitaciones;
@@ -525,16 +535,16 @@ La distribucion propuesta para Tecnoteca es:
 - **Sala CAP o espacio principal:** bienvenida, marco ambiental, demostracion y cierre.
 - **Mesas de trabajo:** un sector por nivel, con identificacion visible.
 - **Mesa de apoyo:** materiales impresos, hojas de trabajo, marcadores y lista de problemas.
-- **Punto tecnico:** persona que atiende conectividad, acceso a Claude y dudas.
+- **Punto tecnico:** persona que atiende el acceso a las PCs, la conectividad, el uso de modelos disponibles y dudas.
 
 El recorrido debe evitar que los participantes tengan que desplazarse repetidamente entre salas. La señalizacion debe indicar nivel, desafio, producto esperado y persona de referencia.
 
 ### 12.2. Dispositivos y conectividad
 
-La dinamica se diseña para que las personas puedan usar sus propios dispositivos, pero debe existir un plan alternativo:
+Tecnoteca dispone de PCs para trabajar, por lo que no hace falta que cada persona lleve una computadora. La cantidad de puestos, su distribucion por mesa y la conectividad deben confirmarse antes del encuentro. Los dispositivos personales pueden utilizarse de forma opcional. El modelo de IA no es unico: cada grupo puede elegir entre las opciones a las que tenga acceso, segun sus preferencias y disponibilidad. Se recomienda este plan operativo:
 
 - hojas impresas con el problema, los pasos y los prompts;
-- al menos un dispositivo por mesa cuando sea posible;
+- asignar las PCs disponibles por mesa o trabajar en parejas/turnos si la cantidad de puestos es menor que la de participantes;
 - prompts preparados para copiar y pegar;
 - un documento local o papel para trabajar si falla internet;
 - captura o transcripcion posterior de resultados;
@@ -574,7 +584,7 @@ Si la convocatoria supera esa capacidad, se puede:
 
 ### 13.2. Instruccion para comenzar cada mesa
 
-La persona facilitadora debe pedir al grupo que complete, antes de abrir Claude:
+La persona facilitadora debe pedir al grupo que complete, antes de abrir un modelo de IA:
 
 - problema elegido;
 - territorio o contexto;
@@ -657,7 +667,7 @@ una fuente a verificar y una version accesible para personas con poco tiempo de 
 
 ### 15.1. Regla general
 
-Claude se utilizara como herramienta de apoyo. No sera una autoridad ambiental, una fuente oficial ni un sustituto de profesionales u organismos responsables.
+El modelo de IA que elija cada grupo se utilizara como herramienta de apoyo. No sera una autoridad ambiental, una fuente oficial ni un sustituto de profesionales u organismos responsables.
 
 ### 15.2. Que se puede ingresar
 
@@ -754,6 +764,8 @@ La expectativa correcta es **prototipo preparado, documentado y continuable**.
 
 El primer EcoLab ya cuenta con un hub público dentro de este repositorio. Su entrada práctica es [`open-lab/birria-ecolabs/primer-ecolab/`](../open-lab/birria-ecolabs/primer-ecolab/), donde viven los tres proyectos iniciales, ordenados por nivel de complejidad. Cada carpeta contiene un README, alcance, prompts, ejemplos y checklist para que el grupo pueda clonar, trabajar y dejar el prototipo preparado.
 
+La [guía de colaboración y actualización de EcoLabs](guia-aportes-ecolabs.md) explica cómo proponer aportes, actualizar los Markdown y revisar los cambios antes de incorporarlos. El nivel inicial, **Separá Bien Rosario**, también forma parte del primer EcoLab y se integra en `01-guia-residuos/`. La consigna pública del hub no enlaza una solución resuelta; los resultados del encuentro y el desarrollo de referencia se incorporan después, por separado y con procedencia y trazabilidad de IA. Sin embargo, ya existe una implementación externa de esta consigna en un repositorio público: por eso, no incluir su enlace en el hub o el QR reduce la exposición, pero no garantiza que los grupos no la encuentren. Si evitar esa exposición es una condición del ejercicio, la coordinación debe acordar con la persona responsable del repositorio una medida previa o adaptar el desafío. Los tres niveles se trabajan en sus carpetas del primer EcoLab hasta que la persona mantenedora decida abrir repositorios derivados.
+
 La estructura inicial es:
 
 ```text
@@ -792,6 +804,14 @@ proyecto-ecolabs/
 ```
 
 El catalogo `open-lab` debe enlazar el proyecto solamente cuando exista un repositorio o una ficha publica revisada. Los resultados preliminares pueden permanecer como material de trabajo hasta completar la validacion.
+
+### 17.1. Referencias externas y herramientas revisadas
+
+El 24 de septiembre de 2026 se revisaron dos recursos compartidos para orientar la conversación técnica. Sus alcances, límites y estado de validación están documentados en [Referencias externas revisadas para EcoLabs](referencias-externas-ecolabs.md). Son antecedentes para analizar, no productos oficiales de BIRRIA ni herramientas obligatorias del taller.
+
+La demo **Cota** ofrece una referencia de interfaz para explorar riesgo hídrico en Rosario; su URL de prueba es temporal y la propia experiencia aclara que no constituye una alerta oficial. El repositorio **Eco-Labs---Chatbot** describe un chatbot sobre separación de residuos y compostaje, por lo que se relaciona con el desafío inicial, no con el nivel intermedio de comunicación ambiental. La documentación de la propuesta mantiene este último como una campaña comunitaria; no se cambia de tema sin acuerdo de Eventos.
+
+Para el piloto, la coordinación aclaró el 24 de septiembre que **hay PCs disponibles en Tecnoteca y cada grupo elige su modelo de IA de acuerdo con sus preferencias y disponibilidad de acceso**. No hace falta llevar un equipo propio. El uso de planillas, documentos compartidos, mapas y diseño gráfico queda como opción según el producto y la disponibilidad. GitHub funciona como infraestructura de continuidad: Issues para tareas, Discussions para conversación, Pull Requests para revisar aportes y Projects para el seguimiento transversal. Issues, Discussions y Projects están habilitados; la creación del tablero sigue pendiente. Los workflows actualmente presentes verifican archivos requeridos y buscan secretos, no prueban aplicaciones ni validan datos ambientales.
 
 ---
 
@@ -851,7 +871,7 @@ La pregunta mas importante no es solamente si el grupo produjo una pieza. Es si 
 - elegir el desafio final de cada nivel;
 - confirmar quienes facilitaran cada mesa;
 - cerrar las plantillas de trabajo;
-- preparar la demostracion de Claude;
+- preparar una demostracion con un modelo accesible para el equipo facilitador y aclarar que cada grupo puede elegir otra opcion disponible;
 - verificar que el repositorio y los enlaces publicos funcionen.
 
 **22 de septiembre - D-2**
@@ -931,7 +951,7 @@ Antes de cerrar la implementacion, se recomienda que Tecnologia y Eventos confir
 1. capacidad final y cantidad de mesas;
 2. cantidad de facilitadores disponibles;
 3. distribucion exacta de participantes por nivel;
-4. dispositivos, conectividad y acceso a Claude;
+4. cantidad y distribucion de PCs, conectividad y acceso a los modelos de IA que cada grupo prefiera;
 5. formato de registro fotografico y autorizaciones;
 6. fuentes locales permitidas para residuos y lluvias;
 7. si se utilizara material municipal o institucional que requiera permiso;
@@ -969,9 +989,9 @@ El exito no se mide por la cantidad de codigo producido durante la jornada. Se m
 
 ## 24. Relacion con el Open Lab
 
-El repositorio publico [`jcruzalmiron/open-lab`](https://github.com/jcruzalmiron/open-lab) funciona como espacio de continuidad de la propuesta. En esta etapa:
+El repositorio público [`comunidad-birria/openlab`](https://github.com/comunidad-birria/openlab) funciona como espacio de continuidad de la propuesta. En esta etapa:
 
-- la cuenta `jcruzalmiron` crea y mantiene el repositorio;
+- la organización `comunidad-birria` aloja el repositorio y `jcruzalmiron` administra su configuración inicial;
 - `open-lab` funciona como catalogo publico;
 - `project-template` permite convertir una idea suficientemente madura en un proyecto documentado;
 - Issues sirven para tareas, bugs y acciones concretas;
@@ -993,7 +1013,7 @@ EcoLabs no necesita comenzar con tres aplicaciones terminadas. Puede comenzar co
 - encuentro de Tecnoteca el 24 de septiembre de 2026;
 - apertura a las 18:30 y cierre estricto a las 22:00 como base de la reunion;
 - tres niveles de complejidad;
-- uso de Claude como herramienta principal del piloto;
+- disponibilidad de PCs en Tecnoteca y eleccion del modelo de IA por preferencias y acceso, aclaradas por coordinacion el 24 de septiembre;
 - presentacion de un repositorio abierto;
 - necesidad de adaptar la experiencia a personas con distintos niveles tecnicos.
 

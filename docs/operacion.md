@@ -2,15 +2,15 @@
 
 ## Checklist inicial de GitHub
 
-1. Mantener la propiedad del repositorio bajo la cuenta `jcruzalmiron`.
-2. Activar autenticación de dos factores y conservar métodos de recuperación seguros.
-3. Definir colaboradores y permisos mínimos para tecnología, eventos y colaboradores externos.
-4. Activar Discussions en los repositorios que funcionen como comunidad.
-5. Crear un GitHub Project transversal con los estados del ciclo de vida.
-6. Crear cada nuevo proyecto desde `project-template` cuando tenga un alcance inicial claro.
-7. Definir las reglas de protección de la rama principal y las revisiones mínimas.
+1. [x] Alojar el repositorio central en `comunidad-birria/openlab`.
+2. [ ] Confirmar autenticación de dos factores y conservar métodos de recuperación seguros.
+3. [ ] Definir colaboradores y permisos mínimos para tecnología, eventos y colaboradores externos.
+4. [x] Habilitar Issues, Discussions y Projects en el repositorio central.
+5. [ ] Crear el GitHub Project transversal con los estados del ciclo de vida.
+6. [ ] Usar `project-template` para cada proyecto nuevo cuando tenga un alcance inicial claro.
+7. [ ] Definir las reglas de protección de la rama principal y las revisiones mínimas.
 
-La transferencia a una GitHub Organization institucional queda fuera de alcance por ahora. Puede revisarse en una etapa posterior si crece la cantidad de equipos o repositorios.
+Al 24 de septiembre de 2026, el repositorio central es público y está alojado en la organización de GitHub `comunidad-birria`; Issues, Discussions y Projects están habilitados. El tablero transversal y las reglas de protección de `main` siguen pendientes. Los repositorios de proyectos derivados pueden crearse bajo la misma organización cuando tengan alcance, responsables y documentación suficientes.
 
 ## Issues y Discussions
 

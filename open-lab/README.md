@@ -6,7 +6,7 @@ Open Lab funciona como portada: ayuda a entender qué proyectos existen, en qué
 
 ## Propiedad y mantenimiento
 
-Este repositorio se mantiene bajo la cuenta personal [`jcruzalmiron`](https://github.com/jcruzalmiron). Las propuestas y contribuciones se reciben por Issues, Discussions y Pull Requests.
+El repositorio central pertenece a la organización de GitHub [Comunidad Birria](https://github.com/comunidad-birria). Las propuestas y contribuciones se reciben por Issues, Discussions y Pull Requests; Projects está habilitado, aunque el tablero transversal sigue pendiente de creación.
 
 ## Proyectos activos
 
@@ -18,7 +18,9 @@ Laboratorios Comunitarios de Inteligencia Artificial para la Acción Climática 
 
 Propuesta operativa y dinámica detallada: [`docs/birria-ecolabs.md`](../docs/birria-ecolabs.md).
 
-Primer EcoLab listo para explorar y clonar: [`open-lab/birria-ecolabs/primer-ecolab/`](birria-ecolabs/primer-ecolab/). Incluye tres proyectos iniciales: guía de residuos, campaña de comunicación ambiental y mapa comunitario de lluvias y anegamientos.
+Guía para sumar desarrollos, actualizar los Markdown y proponer cambios: [`docs/guia-aportes-ecolabs.md`](../docs/guia-aportes-ecolabs.md).
+
+Primer EcoLab listo para explorar y clonar: [`open-lab/birria-ecolabs/primer-ecolab/`](birria-ecolabs/primer-ecolab/). Incluye las consignas de tres proyectos: guía de residuos, campaña de comunicación ambiental y mapa comunitario de lluvias y anegamientos. El hub no enlaza la solución preparada para el nivel inicial y prevé publicar los resultados del grupo después de revisarlos. Una implementación externa de la consigna ya está en un repositorio público; por eso, no mostrarla reduce la exposición, pero no garantiza que nadie la encuentre. El límite y las opciones de coordinación están detallados en la [guía de aportes](../docs/guia-aportes-ecolabs.md).
 
 ### Agente educativo IA
 
